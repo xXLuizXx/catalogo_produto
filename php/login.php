@@ -8,9 +8,7 @@ try {
 	}
     if(isset($_GET["email"]) || isset($_GET["senha"]) ){
         if(!empty($_GET["email"]) || !empty($_GET["senha"])  ){
-    
-            $conexao = new PDO($host, $usuario, $senha);
-    
+            
             $email= $_GET["email"];
             $senha= $_GET["senha"];
 

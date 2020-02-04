@@ -2,8 +2,8 @@
 
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
-$host = "mysql:host=localhost;dbname=db_catalogo";
-$usuario = "root";
+$host = "mysql:host=mysql669.umbler.com;dbname=catalogo_2mil20";
+$usuario = "x_kyller_x";
 $senha = "LopeLope3";
 
 
